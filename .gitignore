@@ -20,7 +20,6 @@
 *.elf
 *.gcno
 *.gz
-*.i
 *.ko
 *.ll
 *.lst
@@ -125,3 +124,10 @@ all.config
 
 # fetched Android config fragments
 kernel/configs/android-*.cfg
+
+# build
+AnyKernel/
+clang/
+out/
+log.txt
+r5x.sh
